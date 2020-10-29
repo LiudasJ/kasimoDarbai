@@ -4,42 +4,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300&family=Notable&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5db77d51c5.js" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
     <title>Ekskavatoriaus nuoma Kaune</title>
 </head>
-<body>
-    <header>
-        <div class="top-wrapper centering">
-            <div class="top-container">
-                <div class="logo-container centering">
-                    <img src="galerija/logo.png" width="150px" alt="Kasimo darbai Kaune">
-                </div>
-                <div class="nav-container centering">
-                    <nav>
-                        <ul class="desctop-nav-list">
-                            <li><a href="#">Pradžia</a></li>
-                            <li><a href="#">Paslaugos</a></li>
-                            <li><a href="#">Galerija</a></li>
-                            <li><a href="#">Kontaktai</a></li>
-                        </ul>
-                    </nav>
-                </div>
+<body class="relative">
+    <div class="to-top centering">
+        <div class="to-top-arrow-container centering">
+            <span class="to-top-arrow">&#11161;</span>
+        </div>
+    </div>
+    <div class="page-wrapper">
+        <div class="top-container">
+            <div class="logo-container centering">
+                <!-- <img src="galerija/logo.jpg" width="80px" height="60px" alt="Kasimo darbai Kaune"> -->
+            </div>
+            <div class="nav-container centering">
+                <nav>
+                    <ul class="desctop-nav-list">
+                        <li><a class="active-link" href="#">Apie mus</a></li>
+                        <li><a href="#">Paslaugos</a></li>
+                        <li><a href="#">Galerija</a></li>
+                        <li><a href="#">Kontaktai</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        <div class="showcase-wrapper">
-            <div class="site-heading-wrapper">
-                <h1>Ratinio ekskavatoriaus kasimo darbai Kauno rajone</h1>
+        <header class="relative">
+            <div class="header-showcase-wrapper relative flex">
+                <div class="header-showcase-img centering">
+                    <img src="/galerija/excavator-2914875.png" width="600px" alt="kasimo darbai Jonavos rajone">
+                </div>
+                <div class="site-main-heading-container centering">
+                    <div class="site-heading-wrapper relative">
+                        <h1><span class="main-text-color">Kasimo darbai</span> Jonavos rajone</h1>
+                        <p>Nuosavų ir komercinės paskirties <span class="main-text-color">sklypų kasimas</span> bei <span class="main-text-color">lyginamas</span>. 
+                            Vykdomi smulkių objektų <span class="main-text-color">griovimo darbai</span>. Dirbame pagal individualią veiklą.</p>
+                        <div class="top-contacts-wrapper centering">
+                            <div class="top-contact-icon centering"><i class="fab fa-facebook-f"></i></div>
+                            <div class="top-contact-icon centering"><i class="far fa-envelope"></i></div>
+                        </div>    
+                    </div>
+                </div>
             </div>
-            <div class="short-info-container">
-                <span>Darbus vykdome:</span>
-                <div><i class="fas fa-map-pin"></i><span>Kėdainių, Jonavos, Kauno rajonuose</span></div>
-                <span>Susisiekti galite:</span>
-                <div><i class="fas fa-phone-volume"></i><span>+370 623 51565</span></div>
-                <div><i class="fas fa-envelope"></i><span>jonusas.liudas@gmail.com</span></div>
+        </header>
+        <main class="relative">
+            <article class="about-us-article">
+                <div class="about-us-wrapper relative">
+                    <div class="about-us-describtion">
+                        <div class="relative">
+                            <h2 class="relative main-text-color">Apie mus</h2>
+                        </div>
+                        <div class="about-us-describtion-paragraph">
+                            <p>Vykdome ekskavatorinį žemės kasinėjimą: iškasame magistralinius kelius vandentiekiui bei šildymo infrastruktūrai, ruošiame žemę gyvenamųjų bei 
+                                komercinių pastatų pamatams, kasame vietinio naudojimo vandens telkinius bei šulinius.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-us-values-wrapper flex">
+                    <div class="about-us-values-showcase">
+                        <div class="flex">
+                            <div class="value-img centering main-bg-color"><i class="fas fa-hands-helping"></i></div>
+                            <div class="value-img centering main-bg-color"><i class="fas fa-clock main-text-color"></i></div>
+                        </div>
+                        <div class="flex">
+                            <div class="value-img centering"><i class="fas fa-euro-sign main-text-color"></i></div>
+                            <div class="value-img centering"><i class="fas fa-shield-alt"></i></div>
+                        </div>        
+                    </div>
+                    <div class="about-us-values-paragraph">
+                        <h2 class="main-text-color">Mūsų vertybės:</h2>
+                        <div class="about-us-values-list">
+                            <ul>
+                                <li>Darbus visada atliekame <span class="main-text-color">sąžiningai</span>.</li>
+                                <li>Darbą baigiame ir pradedame visada sutartu <span class="main-text-color">laiku</span>.</li>
+                                <li>Darbus atliekame visada už sutartą <span class="main-text-color">kainą</span>.</li>
+                                <li>Laikomės <span class="main-text-color">saugumo</span> taisyklių ir <span class="main-text-color">kokybės</span> standartų.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="relative">
+                <article class="about-us-describtion services-article">
+                    <h2 class="relative main-text-color">Paslaugos</h2>
+                    <div class="services-wrapper">
+                        <div class="cards-wrapper">
+                            <div class="services-card">   
+                                <h3>Kasimas</h3>
+                                <p>Vykdome ekskavatorinį žemės kasinėjimą: iškasame magistralinius kelius vandentiekiui bei šildymo infrastruktūrai, ruošiame žemę gyvenamųjų 
+                                    bei komercinių pastatų pamatams, kasame vietinio naudojimo vandens telkinius bei šulinius.</p>
+                            </div> 
+                            <div class="services-card main-border">   
+                                <h3>Lyginimas</h3>
+                                <p>Vykdome ekskavatorinį žemės kasinėjimą: iškasame magistralinius kelius vandentiekiui bei šildymo infrastruktūrai, ruošiame žemę gyvenamųjų 
+                                    bei komercinių pastatų pamatams, kasame vietinio naudojimo vandens telkinius bei šulinius.</p>
+                            </div>
+                            <div class="services-card">    
+                                <h3>Griovimas</h3>
+                                <p>Vykdome ekskavatorinį žemės kasinėjimą: iškasame magistralinius kelius vandentiekiui bei šildymo infrastruktūrai, ruošiame žemę gyvenamųjų 
+                                            bei komercinių pastatų pamatams, kasame vietinio naudojimo vandens telkinius bei šulinius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </div>
-    </header>
+            <div class="gallery-wrapper relative">
+                <div class="gallery-heading">
+                    <h2 class="main-text-color gallery-h2">Galerija</h2>
+                </div>
+                <div class="images-wrapper centering">
+                    <div class="images-carrousel-wrapper">
+                        <img class="gallery-image" src="/galerija/sample1.jpg" width="700px" height="500px" alt="test"> 
+                        <img class="gallery-image" src="/galerija/sample2.jpg" width="700px" height="500px" alt="test">   
+                        <img class="gallery-image" src="/galerija/sample3.jpg" width="700px" height="500px" alt="test">                   
+                        <img class="gallery-image" src="/galerija/sample4.jpg" width="700px" height="500px" alt="test">                
+                        <img class="gallery-image" src="/galerija/sample5.jpg" width="700px" height="500px" alt="test">                                           
+                        <img class="gallery-image" src="/galerija/sample6.jpg" width="700px" height="500px" alt="test">                                            
+                        <img class="gallery-image" src="/galerija/sample7.jpg" width="700px" height="500px" alt="test">
+                    </div>   
+                </div>
+                <div id='next' class="btn">next</div>
+                <div id='prev' class="btn">prev</div>
+            </div>
+            <div class="contacts relative">
+                <div class="contacts-heading">
+                    <h2 class="main-text-color contacts-h2">Kontaktai</h2>
+                <div>
+                <div class="contacts-wrapper">
+                    <div class="form-container">
+                        <form>
+                            <h2>Užpildykite formą</h2>
+                            <div class="user-info-form-elements flex">
+                                <div class="form-element relative">
+                                    <input name="fname" type="text" class="input" required>
+                                    <label for="fname" class="label">
+                                        <span class="label-content">Vardas*<span class="error"></span></span>
+                                    </label>
+                                </div>
+                                <div class="form-element relative">
+                                    <input name="email" type="text" class="input" required>
+                                    <label for="email" class="label">
+                                        <span class="label-content">El.paštas*<span class="error"></span></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="question-form-element relative">
+                                <textarea name="question" rows="8" class="input" required></textarea>
+                                <label for="question" class="question-label">
+                                    <span class="question-label-content">Klausimas*<span class="error"></span></span>
+                                </label>
+                            </div>
+                            <input type="submit" value="Siųsti">
+                        </form>
+                    </div>
+                    <div class="contacts-container">
+                        <h2>Susisiekite</h2>
+                        <div class="contacts-element flex">
+                            <div>
+                                <span class="contacts-icon centering"><i class="fas fa-phone-alt"></i></span>
+                            </div>
+                            <div class="centering">
+                                <span class="contacts-label">Tel.nr:</span><a href="tel:+37062351565">+37062351565</a>
+                            </div> 
+                        </div>
+                        <div class="contacts-element flex">
+                            <div>
+                                <span class="contacts-icon centering"><i class="far fa-envelope"></i></span>
+                            </div>
+                            <div class="centering">
+                                <span class="contacts-label">El.paštas:</span><a href="mailto:kasimas@jonava.lt">kasimas@jonava.lt</a>
+                            </div>
+                        </div>
+                        <div class="contacts-element flex">
+                            <div>
+                                <span class="contacts-icon centering"><i class="fab fa-facebook-f"></i></span>
+                            </div>
+                            <div class="centering">
+                                <span class="contacts-label">Soc.tinklai</span><a href="www.facebook.com">@kasimoDarbai</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
